@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     },
   ],
   openGraph: {
-    images: ['/assets/og-image.png'],
+    images: ['https://devtalk.club/assets/og-image.png'],
   },
   twitter: {
-    images: ['/assets/og-image.png'],
+    images: ['https://devtalk.club/assets/og-image.png'],
   }
 };
 
