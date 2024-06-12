@@ -11,6 +11,7 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        brand: "#2723FF",
       },
       fontFamily: {
         sans: ["var(--font-geist-sans)"],
