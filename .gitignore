@@ -35,4 +35,15 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+# npm
+package-lock.json
+
+# yarn
+yarn.lock
+
+# pnpm
+.pnpm-lock.yaml
+
+# bun
 bun.lockb
+
