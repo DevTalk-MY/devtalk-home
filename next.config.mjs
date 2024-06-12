@@ -3,7 +3,7 @@ const nextConfig = {
   // experimental: {
   //   reactCompiler: true,
   // },
-  // output: "export",
+  output: "export",
 };
 
 export default nextConfig;
