@@ -24,8 +24,14 @@ export const metadata: Metadata = {
       rel: "icon",
       type: "image/png",
       url: "/assets/favicon.png",
-    }
+    },
   ],
+  openGraph: {
+    images: ['/assets/og-image.png'],
+  },
+  twitter: {
+    images: ['/assets/og-image.png'],
+  }
 };
 
 export default function RootLayout({
