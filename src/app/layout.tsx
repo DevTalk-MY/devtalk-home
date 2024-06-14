@@ -48,11 +48,11 @@ export default function RootLayout({
 					will update this will a full design soon.
 				</div>
 				{children}
-				<Script>
-					console.log("If you are looking at this, yes, I am doing a simple
-					design for now. I will update this will a full design soon.");
-					console.log("You can also contribute (if you will) at
-					https://github.com/devtalk-my/devtalk-home");
+				<Script id="test id">
+					{`
+          console.log("If you are looking at this, yes, I am doing a simple design for now. I will update this will a full design soon.");
+          console.log("You can also contribute (if you will) at https://github.com/devtalk-my/devtalk-home");
+          `}
 				</Script>
 			</body>
 		</html>
