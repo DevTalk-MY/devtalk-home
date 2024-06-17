@@ -1,6 +1,6 @@
 "use client"
 
-import { SiDiscord, SiGithub } from "react-icons/si";
+import { SiDiscord, SiGithub, SiYoutube } from "react-icons/si";
 import DevtalkLogo from "./assets/DevtalkLogo";
 
 export default function Home() {
@@ -20,6 +20,9 @@ export default function Home() {
           </a>
           <a href="https://github.com/devtalk-my" target="_blank" rel="noopener noreferrer" className="outline-none hover:scale-125 focus-visible:scale-125 transition-transform">
             <SiGithub className="h-8 w-8 fill-white" />
+          </a>
+          <a href="https://youtube.com/@devtalk-my?si=X4xzfqxGhsb0uRYf" target="_blank" rel="noopener noreferrer" className="outline-none hover:scale-125 focus-visible:scale-125 transition-transform">
+            <SiYoutube className="h-8 w-8 fill-white" />
           </a>
         </div>
 
