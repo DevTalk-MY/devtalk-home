@@ -1,6 +1,4 @@
-"use client"
-
-import { SiDiscord, SiGithub, SiYoutube } from "react-icons/si";
+import { SiDiscord, SiGithub } from "react-icons/si";
 import DevtalkLogo from "./assets/DevtalkLogo";
 import Link from "next/link";
 
