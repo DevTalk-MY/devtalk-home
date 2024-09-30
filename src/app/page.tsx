@@ -2,6 +2,7 @@
 
 import { SiDiscord, SiGithub, SiYoutube } from "react-icons/si";
 import DevtalkLogo from "./assets/DevtalkLogo";
+import Link from "next/link";
 
 export default function Home() {
   console.log("If you are looking at this, yes, I am doing a simple design for now. I will update this will a full design soon.");
@@ -31,7 +32,9 @@ export default function Home() {
           1. Brand guidelines
           2. About
         </div>
+        <Link href="/media-kit" className="bg-white text-blue-500 px-4 py-2 w-fit m-auto rounded-lg hover:scale-125 transition-all hover:bg-blue-500 hover:text-white duration-300">Media Kit</Link>
       </div>
+
 
       <footer className="fixed bottom-4 w-full flex items-center justify-center z-10">
         <div className="flex gap-2 items-center justify-center bg-white rounded-lg py-2 px-4 text-black">
