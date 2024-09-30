@@ -12,7 +12,7 @@ const MediaKit = () => {
         <h1 className="text-4xl font-bold">Media Kit</h1>
         <p>The story behind this logo will be told later, but for now, please, take this media kit in case you need it!</p>
 
-        <Link href="/media-kit/devtalk-logo.zip" className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white transition-all">Download the media kit</Link>
+        <Link href="/devtalk-logo.zip" className="bg-white text-blue-600 px-4 py-2 rounded-lg hover:bg-blue-600 hover:text-white transition-all">Download the media kit</Link>
 
         <hr className="opacity-20 my-4" />
 
