@@ -4,9 +4,11 @@ import DevtalkLogo from "../assets/DevtalkLogo";
 
 const MediaKit = () => {
   return (
-    <div className="font-sans min-h-screen flex bg-gradient-to-b from-slate-900 to-slate-950">
-      <div className="flex flex-col justify-center text-center gap-4 relative lg:absolute z-10 bg-zinc-800 rounded-xl top-40 lg:right-40 py-12 px-10 lg:px-20 w-full max-w-3xl h-fit m-8 lg:m-0 shadow-lg bg-opacity-70 backdrop-blur-lg hover:bg-opacity-80 transition-all duration-500">
-        <DevtalkLogo className="h-20 w-full fill-white" />
+    <div className="font-sans h-screen overflow-scroll flex bg-gradient-to-b from-slate-900 to-slate-950">
+      <div className="flex flex-col text-center gap-4 relative lg:fixed z-10 bg-zinc-800 rounded-xl top-40 lg:right-40 py-12 px-10 lg:px-20 w-full max-w-3xl m-8 lg:m-0 shadow-lg bg-opacity-70 backdrop-blur-lg hover:bg-opacity-80 transition-all duration-500 max-h-[70%] overflow-scroll">
+        <Link href="/">
+          <DevtalkLogo className="h-20 w-full fill-white" />
+        </Link>
         <h1 className="text-4xl font-bold">Media Kit</h1>
         <p>The story behind this logo will be told later, but for now, please, take this media kit in case you need it!</p>
 
@@ -141,7 +143,7 @@ const MediaKit = () => {
       <img
         src="/assets/sound-of-silence.jpeg"
         alt="Sound of Silence"
-        className="w-full h-full object-cover absolute"
+        className="w-full h-full object-cover absolute bg-repeat"
       />
     </div>
   );

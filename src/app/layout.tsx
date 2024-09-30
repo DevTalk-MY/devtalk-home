@@ -41,7 +41,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className={`${geistSans.variable} ${geistMono.variable} h-max`}>
         <div id="hidden-message" className="hidden">
           If you are looking at this, yes, I am doing a simple design for now. I will update this will a full design soon.
         </div>
